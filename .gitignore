@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+*.bak
+
+candidate_models.joblib
+candidate_models_backup.joblib
+candidate_models.joblib.before_s3model.bak

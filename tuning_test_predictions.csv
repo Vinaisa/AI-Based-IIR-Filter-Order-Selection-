@@ -1,0 +1,1201 @@
+spec_id,filter_response,filter_type,design_method,actual_order,predicted_order,absolute_error
+1,lowpass,Butterworth,Direct digital,12,10,2
+1,lowpass,Butterworth,BLT,12,10,2
+8,lowpass,Butterworth,Direct digital,7,8,1
+8,lowpass,Butterworth,BLT,7,8,1
+15,lowpass,Chebyshev I,Direct digital,8,8,0
+15,lowpass,Chebyshev I,BLT,8,8,0
+30,lowpass,Chebyshev II,Direct digital,13,13,0
+30,lowpass,Chebyshev II,BLT,13,13,0
+31,highpass,Chebyshev I,Direct digital,8,8,0
+31,highpass,Chebyshev I,BLT,8,8,0
+33,lowpass,Butterworth,Direct digital,8,9,1
+33,lowpass,Butterworth,BLT,8,9,1
+44,lowpass,Chebyshev II,Direct digital,24,24,0
+44,lowpass,Chebyshev II,BLT,24,24,0
+45,lowpass,Chebyshev I,Direct digital,5,5,0
+45,lowpass,Chebyshev I,BLT,5,5,0
+46,lowpass,Chebyshev II,Direct digital,6,7,1
+46,lowpass,Chebyshev II,BLT,6,7,1
+52,lowpass,Chebyshev II,Direct digital,11,12,1
+52,lowpass,Chebyshev II,BLT,11,12,1
+53,lowpass,Butterworth,Direct digital,32,40,8
+53,lowpass,Butterworth,BLT,32,40,8
+57,lowpass,Chebyshev I,Direct digital,8,8,0
+57,lowpass,Chebyshev I,BLT,8,8,0
+64,highpass,Chebyshev II,Direct digital,12,13,1
+64,highpass,Chebyshev II,BLT,12,13,1
+68,lowpass,Chebyshev I,Direct digital,9,9,0
+68,lowpass,Chebyshev I,BLT,9,9,0
+71,highpass,Butterworth,Direct digital,60,63,3
+71,highpass,Butterworth,BLT,60,63,3
+74,highpass,Chebyshev I,Direct digital,5,5,0
+74,highpass,Chebyshev I,BLT,5,5,0
+81,lowpass,Butterworth,Direct digital,45,47,2
+81,lowpass,Butterworth,BLT,45,47,2
+88,lowpass,Butterworth,Direct digital,28,27,1
+88,lowpass,Butterworth,BLT,28,27,1
+89,highpass,Chebyshev I,Direct digital,14,13,1
+89,highpass,Chebyshev I,BLT,14,13,1
+94,lowpass,Butterworth,Direct digital,21,21,0
+94,lowpass,Butterworth,BLT,21,21,0
+97,lowpass,Butterworth,Direct digital,10,10,0
+97,lowpass,Butterworth,BLT,10,10,0
+103,lowpass,Butterworth,Direct digital,13,14,1
+103,lowpass,Butterworth,BLT,13,14,1
+105,lowpass,Chebyshev I,Direct digital,7,8,1
+105,lowpass,Chebyshev I,BLT,7,8,1
+109,highpass,Chebyshev II,Direct digital,8,8,0
+109,highpass,Chebyshev II,BLT,8,8,0
+112,highpass,Butterworth,Direct digital,10,11,1
+112,highpass,Butterworth,BLT,10,11,1
+121,lowpass,Chebyshev II,Direct digital,27,26,1
+121,lowpass,Chebyshev II,BLT,27,26,1
+125,highpass,Butterworth,Direct digital,36,35,1
+125,highpass,Butterworth,BLT,36,35,1
+135,lowpass,Chebyshev II,Direct digital,8,8,0
+135,lowpass,Chebyshev II,BLT,8,8,0
+136,highpass,Chebyshev I,Direct digital,11,12,1
+136,highpass,Chebyshev I,BLT,11,12,1
+140,lowpass,Butterworth,Direct digital,12,11,1
+140,lowpass,Butterworth,BLT,12,11,1
+142,lowpass,Butterworth,Direct digital,8,9,1
+142,lowpass,Butterworth,BLT,8,9,1
+145,lowpass,Chebyshev I,Direct digital,8,8,0
+145,lowpass,Chebyshev I,BLT,8,8,0
+150,lowpass,Butterworth,Direct digital,11,11,0
+150,lowpass,Butterworth,BLT,11,11,0
+153,highpass,Chebyshev II,Direct digital,17,19,2
+153,highpass,Chebyshev II,BLT,17,19,2
+163,highpass,Chebyshev II,Direct digital,6,6,0
+163,highpass,Chebyshev II,BLT,6,6,0
+169,lowpass,Chebyshev II,Direct digital,12,12,0
+169,lowpass,Chebyshev II,BLT,12,12,0
+171,lowpass,Chebyshev I,Direct digital,7,7,0
+171,lowpass,Chebyshev I,BLT,7,7,0
+174,lowpass,Chebyshev I,Direct digital,5,5,0
+174,lowpass,Chebyshev I,BLT,5,5,0
+175,highpass,Chebyshev II,Direct digital,5,5,0
+175,highpass,Chebyshev II,BLT,5,5,0
+176,lowpass,Chebyshev II,Direct digital,51,51,0
+176,lowpass,Chebyshev II,BLT,51,51,0
+178,highpass,Butterworth,Direct digital,7,6,1
+178,highpass,Butterworth,BLT,7,6,1
+179,lowpass,Chebyshev II,Direct digital,35,34,1
+179,lowpass,Chebyshev II,BLT,35,34,1
+184,lowpass,Butterworth,Direct digital,64,61,3
+184,lowpass,Butterworth,BLT,64,61,3
+185,lowpass,Butterworth,Direct digital,13,12,1
+185,lowpass,Butterworth,BLT,13,12,1
+189,lowpass,Butterworth,Direct digital,4,4,0
+189,lowpass,Butterworth,BLT,4,4,0
+193,highpass,Butterworth,Direct digital,21,22,1
+193,highpass,Butterworth,BLT,21,22,1
+195,highpass,Butterworth,Direct digital,22,23,1
+195,highpass,Butterworth,BLT,22,23,1
+197,highpass,Butterworth,Direct digital,10,10,0
+197,highpass,Butterworth,BLT,10,10,0
+200,lowpass,Butterworth,Direct digital,8,8,0
+200,lowpass,Butterworth,BLT,8,8,0
+204,highpass,Chebyshev II,Direct digital,10,10,0
+204,highpass,Chebyshev II,BLT,10,10,0
+211,lowpass,Chebyshev I,Direct digital,19,19,0
+211,lowpass,Chebyshev I,BLT,19,19,0
+212,lowpass,Chebyshev I,Direct digital,23,23,0
+212,lowpass,Chebyshev I,BLT,23,23,0
+219,highpass,Butterworth,Direct digital,16,16,0
+219,highpass,Butterworth,BLT,16,16,0
+222,lowpass,Chebyshev II,Direct digital,13,13,0
+222,lowpass,Chebyshev II,BLT,13,13,0
+228,lowpass,Butterworth,Direct digital,10,9,1
+228,lowpass,Butterworth,BLT,10,9,1
+232,lowpass,Butterworth,Direct digital,8,9,1
+232,lowpass,Butterworth,BLT,8,9,1
+234,highpass,Chebyshev II,Direct digital,9,9,0
+234,highpass,Chebyshev II,BLT,9,9,0
+240,lowpass,Butterworth,Direct digital,17,16,1
+240,lowpass,Butterworth,BLT,17,16,1
+247,lowpass,Chebyshev I,Direct digital,5,5,0
+247,lowpass,Chebyshev I,BLT,5,5,0
+252,lowpass,Chebyshev II,Direct digital,32,34,2
+252,lowpass,Chebyshev II,BLT,32,34,2
+255,highpass,Chebyshev II,Direct digital,6,6,0
+255,highpass,Chebyshev II,BLT,6,6,0
+257,highpass,Chebyshev I,Direct digital,11,11,0
+257,highpass,Chebyshev I,BLT,11,11,0
+258,lowpass,Chebyshev I,Direct digital,7,7,0
+258,lowpass,Chebyshev I,BLT,7,7,0
+267,lowpass,Chebyshev II,Direct digital,13,13,0
+267,lowpass,Chebyshev II,BLT,13,13,0
+271,lowpass,Butterworth,Direct digital,9,10,1
+271,lowpass,Butterworth,BLT,9,10,1
+273,highpass,Chebyshev II,Direct digital,8,8,0
+273,highpass,Chebyshev II,BLT,8,8,0
+283,lowpass,Chebyshev I,Direct digital,5,5,0
+283,lowpass,Chebyshev I,BLT,5,5,0
+284,lowpass,Chebyshev II,Direct digital,4,5,1
+284,lowpass,Chebyshev II,BLT,4,5,1
+290,lowpass,Chebyshev I,Direct digital,10,10,0
+290,lowpass,Chebyshev I,BLT,10,10,0
+292,lowpass,Chebyshev II,Direct digital,12,12,0
+292,lowpass,Chebyshev II,BLT,12,12,0
+297,lowpass,Chebyshev II,Direct digital,7,7,0
+297,lowpass,Chebyshev II,BLT,7,7,0
+299,highpass,Chebyshev II,Direct digital,9,9,0
+299,highpass,Chebyshev II,BLT,9,9,0
+310,lowpass,Chebyshev II,Direct digital,8,8,0
+310,lowpass,Chebyshev II,BLT,8,8,0
+314,highpass,Butterworth,Direct digital,13,13,0
+314,highpass,Butterworth,BLT,13,13,0
+315,highpass,Chebyshev II,Direct digital,4,5,1
+315,highpass,Chebyshev II,BLT,4,5,1
+319,lowpass,Chebyshev I,Direct digital,8,9,1
+319,lowpass,Chebyshev I,BLT,8,9,1
+322,lowpass,Butterworth,Direct digital,10,10,0
+322,lowpass,Butterworth,BLT,10,10,0
+323,highpass,Chebyshev I,Direct digital,12,12,0
+323,highpass,Chebyshev I,BLT,12,12,0
+325,lowpass,Chebyshev II,Direct digital,5,5,0
+325,lowpass,Chebyshev II,BLT,5,5,0
+332,lowpass,Butterworth,Direct digital,16,17,1
+332,lowpass,Butterworth,BLT,16,17,1
+333,highpass,Chebyshev II,Direct digital,8,8,0
+333,highpass,Chebyshev II,BLT,8,8,0
+344,highpass,Chebyshev II,Direct digital,11,12,1
+344,highpass,Chebyshev II,BLT,11,12,1
+352,highpass,Chebyshev I,Direct digital,29,27,2
+352,highpass,Chebyshev I,BLT,29,27,2
+355,highpass,Butterworth,Direct digital,4,5,1
+355,highpass,Butterworth,BLT,4,5,1
+366,lowpass,Butterworth,Direct digital,35,34,1
+366,lowpass,Butterworth,BLT,35,34,1
+367,lowpass,Butterworth,Direct digital,56,49,7
+367,lowpass,Butterworth,BLT,56,49,7
+368,lowpass,Butterworth,Direct digital,18,18,0
+368,lowpass,Butterworth,BLT,18,18,0
+369,lowpass,Chebyshev I,Direct digital,6,6,0
+369,lowpass,Chebyshev I,BLT,6,6,0
+388,lowpass,Chebyshev I,Direct digital,9,9,0
+388,lowpass,Chebyshev I,BLT,9,9,0
+394,highpass,Butterworth,Direct digital,21,21,0
+394,highpass,Butterworth,BLT,21,21,0
+403,lowpass,Chebyshev I,Direct digital,9,8,1
+403,lowpass,Chebyshev I,BLT,9,8,1
+408,highpass,Chebyshev II,Direct digital,7,7,0
+408,highpass,Chebyshev II,BLT,7,7,0
+409,lowpass,Chebyshev I,Direct digital,13,13,0
+409,lowpass,Chebyshev I,BLT,13,13,0
+411,highpass,Chebyshev I,Direct digital,12,13,1
+411,highpass,Chebyshev I,BLT,12,13,1
+412,highpass,Butterworth,Direct digital,11,11,0
+412,highpass,Butterworth,BLT,11,11,0
+415,lowpass,Chebyshev II,Direct digital,25,25,0
+415,lowpass,Chebyshev II,BLT,25,25,0
+416,lowpass,Butterworth,Direct digital,4,5,1
+416,lowpass,Butterworth,BLT,4,5,1
+417,lowpass,Chebyshev I,Direct digital,4,4,0
+417,lowpass,Chebyshev I,BLT,4,4,0
+421,highpass,Chebyshev II,Direct digital,4,4,0
+421,highpass,Chebyshev II,BLT,4,4,0
+424,lowpass,Butterworth,Direct digital,9,10,1
+424,lowpass,Butterworth,BLT,9,10,1
+431,highpass,Butterworth,Direct digital,21,22,1
+431,highpass,Butterworth,BLT,21,22,1
+433,highpass,Chebyshev I,Direct digital,42,43,1
+433,highpass,Chebyshev I,BLT,42,43,1
+434,lowpass,Chebyshev I,Direct digital,7,7,0
+434,lowpass,Chebyshev I,BLT,7,7,0
+437,lowpass,Chebyshev II,Direct digital,7,7,0
+437,lowpass,Chebyshev II,BLT,7,7,0
+440,highpass,Chebyshev II,Direct digital,22,23,1
+440,highpass,Chebyshev II,BLT,22,23,1
+444,lowpass,Chebyshev I,Direct digital,8,7,1
+444,lowpass,Chebyshev I,BLT,8,7,1
+451,lowpass,Butterworth,Direct digital,21,22,1
+451,lowpass,Butterworth,BLT,21,22,1
+458,highpass,Chebyshev I,Direct digital,14,14,0
+458,highpass,Chebyshev I,BLT,14,14,0
+461,highpass,Chebyshev II,Direct digital,47,45,2
+461,highpass,Chebyshev II,BLT,47,45,2
+464,lowpass,Chebyshev I,Direct digital,6,5,1
+464,lowpass,Chebyshev I,BLT,6,5,1
+472,lowpass,Butterworth,Direct digital,3,3,0
+472,lowpass,Butterworth,BLT,3,3,0
+473,lowpass,Chebyshev II,Direct digital,35,36,1
+473,lowpass,Chebyshev II,BLT,35,36,1
+479,lowpass,Butterworth,Direct digital,23,23,0
+479,lowpass,Butterworth,BLT,23,23,0
+480,highpass,Chebyshev I,Direct digital,9,9,0
+480,highpass,Chebyshev I,BLT,9,9,0
+486,lowpass,Chebyshev I,Direct digital,10,11,1
+486,lowpass,Chebyshev I,BLT,10,11,1
+487,lowpass,Chebyshev II,Direct digital,5,5,0
+487,lowpass,Chebyshev II,BLT,5,5,0
+496,lowpass,Butterworth,Direct digital,24,23,1
+496,lowpass,Butterworth,BLT,24,23,1
+499,highpass,Butterworth,Direct digital,20,28,8
+499,highpass,Butterworth,BLT,20,28,8
+507,lowpass,Chebyshev I,Direct digital,29,30,1
+507,lowpass,Chebyshev I,BLT,29,30,1
+508,highpass,Chebyshev II,Direct digital,13,13,0
+508,highpass,Chebyshev II,BLT,13,13,0
+512,highpass,Chebyshev II,Direct digital,7,7,0
+512,highpass,Chebyshev II,BLT,7,7,0
+522,highpass,Chebyshev II,Direct digital,15,15,0
+522,highpass,Chebyshev II,BLT,15,15,0
+528,lowpass,Chebyshev I,Direct digital,22,25,3
+528,lowpass,Chebyshev I,BLT,22,25,3
+529,lowpass,Chebyshev II,Direct digital,8,8,0
+529,lowpass,Chebyshev II,BLT,8,8,0
+533,highpass,Butterworth,Direct digital,9,10,1
+533,highpass,Butterworth,BLT,9,10,1
+534,highpass,Chebyshev I,Direct digital,8,8,0
+534,highpass,Chebyshev I,BLT,8,8,0
+536,lowpass,Chebyshev I,Direct digital,10,10,0
+536,lowpass,Chebyshev I,BLT,10,10,0
+544,lowpass,Butterworth,Direct digital,10,11,1
+544,lowpass,Butterworth,BLT,10,11,1
+545,lowpass,Chebyshev I,Direct digital,5,5,0
+545,lowpass,Chebyshev I,BLT,5,5,0
+555,highpass,Chebyshev I,Direct digital,5,5,0
+555,highpass,Chebyshev I,BLT,5,5,0
+556,highpass,Chebyshev II,Direct digital,13,13,0
+556,highpass,Chebyshev II,BLT,13,13,0
+558,lowpass,Chebyshev I,Direct digital,5,6,1
+558,lowpass,Chebyshev I,BLT,5,6,1
+565,highpass,Chebyshev I,Direct digital,13,13,0
+565,highpass,Chebyshev I,BLT,13,13,0
+566,highpass,Chebyshev II,Direct digital,11,12,1
+566,highpass,Chebyshev II,BLT,11,12,1
+568,lowpass,Chebyshev II,Direct digital,24,24,0
+568,lowpass,Chebyshev II,BLT,24,24,0
+569,lowpass,Chebyshev I,Direct digital,23,23,0
+569,lowpass,Chebyshev I,BLT,23,23,0
+573,highpass,Butterworth,Direct digital,24,28,4
+573,highpass,Butterworth,BLT,24,28,4
+582,lowpass,Butterworth,Direct digital,3,3,0
+582,lowpass,Butterworth,BLT,3,3,0
+595,highpass,Butterworth,Direct digital,11,10,1
+595,highpass,Butterworth,BLT,11,10,1
+599,lowpass,Chebyshev I,Direct digital,4,4,0
+599,lowpass,Chebyshev I,BLT,4,4,0
+600,lowpass,Butterworth,Direct digital,4,4,0
+600,lowpass,Butterworth,BLT,4,4,0
+602,highpass,Chebyshev II,Direct digital,15,15,0
+602,highpass,Chebyshev II,BLT,15,15,0
+603,highpass,Chebyshev I,Direct digital,12,12,0
+603,highpass,Chebyshev I,BLT,12,12,0
+606,lowpass,Chebyshev II,Direct digital,6,6,0
+606,lowpass,Chebyshev II,BLT,6,6,0
+611,lowpass,Butterworth,Direct digital,10,10,0
+611,lowpass,Butterworth,BLT,10,10,0
+613,highpass,Chebyshev I,Direct digital,4,4,0
+613,highpass,Chebyshev I,BLT,4,4,0
+622,lowpass,Butterworth,Direct digital,26,28,2
+622,lowpass,Butterworth,BLT,26,28,2
+645,highpass,Chebyshev I,Direct digital,5,5,0
+645,highpass,Chebyshev I,BLT,5,5,0
+651,lowpass,Chebyshev I,Direct digital,8,9,1
+651,lowpass,Chebyshev I,BLT,8,9,1
+652,highpass,Chebyshev II,Direct digital,8,9,1
+652,highpass,Chebyshev II,BLT,8,9,1
+671,lowpass,Butterworth,Direct digital,15,15,0
+671,lowpass,Butterworth,BLT,15,15,0
+677,highpass,Chebyshev I,Direct digital,7,7,0
+677,highpass,Chebyshev I,BLT,7,7,0
+679,highpass,Chebyshev II,Direct digital,7,6,1
+679,highpass,Chebyshev II,BLT,7,6,1
+680,highpass,Butterworth,Direct digital,20,20,0
+680,highpass,Butterworth,BLT,20,20,0
+681,lowpass,Chebyshev II,Direct digital,6,6,0
+681,lowpass,Chebyshev II,BLT,6,6,0
+686,highpass,Chebyshev II,Direct digital,10,9,1
+686,highpass,Chebyshev II,BLT,10,9,1
+692,lowpass,Butterworth,Direct digital,3,3,0
+692,lowpass,Butterworth,BLT,3,3,0
+694,lowpass,Chebyshev II,Direct digital,5,5,0
+694,lowpass,Chebyshev II,BLT,5,5,0
+696,highpass,Chebyshev I,Direct digital,7,8,1
+696,highpass,Chebyshev I,BLT,7,8,1
+706,highpass,Chebyshev I,Direct digital,8,9,1
+706,highpass,Chebyshev I,BLT,8,9,1
+719,lowpass,Butterworth,Direct digital,3,3,0
+719,lowpass,Butterworth,BLT,3,3,0
+728,lowpass,Butterworth,Direct digital,60,59,1
+728,lowpass,Butterworth,BLT,60,59,1
+730,lowpass,Chebyshev I,Direct digital,14,14,0
+730,lowpass,Chebyshev I,BLT,14,14,0
+742,lowpass,Chebyshev II,Direct digital,8,8,0
+742,lowpass,Chebyshev II,BLT,8,8,0
+747,lowpass,Butterworth,Direct digital,10,10,0
+747,lowpass,Butterworth,BLT,10,10,0
+756,highpass,Butterworth,Direct digital,24,25,1
+756,highpass,Butterworth,BLT,24,25,1
+760,lowpass,Chebyshev I,Direct digital,10,10,0
+760,lowpass,Chebyshev I,BLT,10,10,0
+762,lowpass,Chebyshev II,Direct digital,6,6,0
+762,lowpass,Chebyshev II,BLT,6,6,0
+765,lowpass,Butterworth,Direct digital,12,12,0
+765,lowpass,Butterworth,BLT,12,12,0
+766,lowpass,Chebyshev II,Direct digital,12,11,1
+766,lowpass,Chebyshev II,BLT,12,11,1
+773,highpass,Chebyshev II,Direct digital,4,4,0
+773,highpass,Chebyshev II,BLT,4,4,0
+782,lowpass,Chebyshev II,Direct digital,53,49,4
+782,lowpass,Chebyshev II,BLT,53,49,4
+784,lowpass,Chebyshev II,Direct digital,10,10,0
+784,lowpass,Chebyshev II,BLT,10,10,0
+786,highpass,Chebyshev I,Direct digital,32,32,0
+786,highpass,Chebyshev I,BLT,32,32,0
+788,lowpass,Chebyshev I,Direct digital,49,48,1
+788,lowpass,Chebyshev I,BLT,49,48,1
+790,lowpass,Chebyshev I,Direct digital,4,5,1
+790,lowpass,Chebyshev I,BLT,4,5,1
+795,highpass,Butterworth,Direct digital,28,28,0
+795,highpass,Butterworth,BLT,28,28,0
+799,highpass,Chebyshev I,Direct digital,9,9,0
+799,highpass,Chebyshev I,BLT,9,9,0
+808,highpass,Chebyshev I,Direct digital,4,5,1
+808,highpass,Chebyshev I,BLT,4,5,1
+810,lowpass,Chebyshev I,Direct digital,24,24,0
+810,lowpass,Chebyshev I,BLT,24,24,0
+811,lowpass,Chebyshev II,Direct digital,4,4,0
+811,lowpass,Chebyshev II,BLT,4,4,0
+813,lowpass,Chebyshev II,Direct digital,9,9,0
+813,lowpass,Chebyshev II,BLT,9,9,0
+818,lowpass,Chebyshev I,Direct digital,5,5,0
+818,lowpass,Chebyshev I,BLT,5,5,0
+832,lowpass,Chebyshev II,Direct digital,28,28,0
+832,lowpass,Chebyshev II,BLT,28,28,0
+841,lowpass,Butterworth,Direct digital,32,29,3
+841,lowpass,Butterworth,BLT,32,29,3
+843,lowpass,Butterworth,Direct digital,18,23,5
+843,lowpass,Butterworth,BLT,18,23,5
+845,lowpass,Butterworth,Direct digital,5,5,0
+845,lowpass,Butterworth,BLT,5,5,0
+846,highpass,Butterworth,Direct digital,11,10,1
+846,highpass,Butterworth,BLT,11,10,1
+848,lowpass,Chebyshev I,Direct digital,7,7,0
+848,lowpass,Chebyshev I,BLT,7,7,0
+858,lowpass,Butterworth,Direct digital,14,15,1
+858,lowpass,Butterworth,BLT,14,15,1
+860,lowpass,Butterworth,Direct digital,43,45,2
+860,lowpass,Butterworth,BLT,43,45,2
+863,lowpass,Butterworth,Direct digital,61,63,2
+863,lowpass,Butterworth,BLT,61,63,2
+865,lowpass,Chebyshev II,Direct digital,9,10,1
+865,lowpass,Chebyshev II,BLT,9,10,1
+868,highpass,Chebyshev II,Direct digital,25,25,0
+868,highpass,Chebyshev II,BLT,25,25,0
+875,highpass,Chebyshev I,Direct digital,44,44,0
+875,highpass,Chebyshev I,BLT,44,44,0
+880,lowpass,Butterworth,Direct digital,15,15,0
+880,lowpass,Butterworth,BLT,15,15,0
+882,lowpass,Chebyshev I,Direct digital,19,21,2
+882,lowpass,Chebyshev I,BLT,19,21,2
+898,highpass,Butterworth,Direct digital,15,16,1
+898,highpass,Butterworth,BLT,15,16,1
+901,lowpass,Butterworth,Direct digital,14,14,0
+901,lowpass,Butterworth,BLT,14,14,0
+904,lowpass,Chebyshev I,Direct digital,6,6,0
+904,lowpass,Chebyshev I,BLT,6,6,0
+908,highpass,Butterworth,Direct digital,22,21,1
+908,highpass,Butterworth,BLT,22,21,1
+912,highpass,Chebyshev I,Direct digital,12,12,0
+912,highpass,Chebyshev I,BLT,12,12,0
+913,highpass,Chebyshev I,Direct digital,7,7,0
+913,highpass,Chebyshev I,BLT,7,7,0
+927,lowpass,Chebyshev I,Direct digital,13,13,0
+927,lowpass,Chebyshev I,BLT,13,13,0
+928,highpass,Butterworth,Direct digital,42,45,3
+928,highpass,Butterworth,BLT,42,45,3
+930,lowpass,Chebyshev I,Direct digital,27,27,0
+930,lowpass,Chebyshev I,BLT,27,27,0
+931,highpass,Chebyshev II,Direct digital,4,4,0
+931,highpass,Chebyshev II,BLT,4,4,0
+933,lowpass,Butterworth,Direct digital,4,4,0
+933,lowpass,Butterworth,BLT,4,4,0
+943,lowpass,Butterworth,Direct digital,11,11,0
+943,lowpass,Butterworth,BLT,11,11,0
+946,lowpass,Butterworth,Direct digital,69,63,6
+946,lowpass,Butterworth,BLT,69,63,6
+950,highpass,Butterworth,Direct digital,63,62,1
+950,highpass,Butterworth,BLT,63,62,1
+953,lowpass,Chebyshev II,Direct digital,9,9,0
+953,lowpass,Chebyshev II,BLT,9,9,0
+959,lowpass,Butterworth,Direct digital,13,12,1
+959,lowpass,Butterworth,BLT,13,12,1
+966,lowpass,Chebyshev I,Direct digital,25,25,0
+966,lowpass,Chebyshev I,BLT,25,25,0
+979,highpass,Chebyshev II,Direct digital,21,21,0
+979,highpass,Chebyshev II,BLT,21,21,0
+980,lowpass,Butterworth,Direct digital,10,11,1
+980,lowpass,Butterworth,BLT,10,11,1
+999,highpass,Chebyshev I,Direct digital,9,9,0
+999,highpass,Chebyshev I,BLT,9,9,0
+1002,highpass,Chebyshev I,Direct digital,11,12,1
+1002,highpass,Chebyshev I,BLT,11,12,1
+1006,highpass,Butterworth,Direct digital,21,22,1
+1006,highpass,Butterworth,BLT,21,22,1
+1026,lowpass,Butterworth,Direct digital,15,14,1
+1026,lowpass,Butterworth,BLT,15,14,1
+1028,lowpass,Chebyshev II,Direct digital,5,5,0
+1028,lowpass,Chebyshev II,BLT,5,5,0
+1035,lowpass,Chebyshev II,Direct digital,15,15,0
+1035,lowpass,Chebyshev II,BLT,15,15,0
+1037,highpass,Butterworth,Direct digital,5,5,0
+1037,highpass,Butterworth,BLT,5,5,0
+1042,highpass,Butterworth,Direct digital,47,51,4
+1042,highpass,Butterworth,BLT,47,51,4
+1045,highpass,Chebyshev I,Direct digital,34,37,3
+1045,highpass,Chebyshev I,BLT,34,37,3
+1048,highpass,Chebyshev I,Direct digital,10,10,0
+1048,highpass,Chebyshev I,BLT,10,10,0
+1056,lowpass,Chebyshev I,Direct digital,26,26,0
+1056,lowpass,Chebyshev I,BLT,26,26,0
+1058,lowpass,Chebyshev I,Direct digital,5,5,0
+1058,lowpass,Chebyshev I,BLT,5,5,0
+1065,lowpass,Chebyshev I,Direct digital,10,10,0
+1065,lowpass,Chebyshev I,BLT,10,10,0
+1074,lowpass,Butterworth,Direct digital,10,10,0
+1074,lowpass,Butterworth,BLT,10,10,0
+1079,lowpass,Chebyshev II,Direct digital,13,13,0
+1079,lowpass,Chebyshev II,BLT,13,13,0
+1081,highpass,Butterworth,Direct digital,17,18,1
+1081,highpass,Butterworth,BLT,17,18,1
+1085,lowpass,Butterworth,Direct digital,19,18,1
+1085,lowpass,Butterworth,BLT,19,18,1
+1090,lowpass,Butterworth,Direct digital,5,5,0
+1090,lowpass,Butterworth,BLT,5,5,0
+1091,lowpass,Butterworth,Direct digital,53,50,3
+1091,lowpass,Butterworth,BLT,53,50,3
+1095,highpass,Chebyshev I,Direct digital,4,4,0
+1095,highpass,Chebyshev I,BLT,4,4,0
+1101,lowpass,Butterworth,Direct digital,9,10,1
+1101,lowpass,Butterworth,BLT,9,10,1
+1103,lowpass,Butterworth,Direct digital,26,30,4
+1103,lowpass,Butterworth,BLT,26,30,4
+1104,lowpass,Butterworth,Direct digital,9,10,1
+1104,lowpass,Butterworth,BLT,9,10,1
+1106,highpass,Chebyshev II,Direct digital,7,7,0
+1106,highpass,Chebyshev II,BLT,7,7,0
+1107,lowpass,Chebyshev II,Direct digital,20,21,1
+1107,lowpass,Chebyshev II,BLT,20,21,1
+1117,lowpass,Chebyshev II,Direct digital,8,8,0
+1117,lowpass,Chebyshev II,BLT,8,8,0
+1118,highpass,Chebyshev II,Direct digital,9,9,0
+1118,highpass,Chebyshev II,BLT,9,9,0
+1124,lowpass,Chebyshev I,Direct digital,5,5,0
+1124,lowpass,Chebyshev I,BLT,5,5,0
+1129,lowpass,Chebyshev I,Direct digital,6,7,1
+1129,lowpass,Chebyshev I,BLT,6,7,1
+1135,highpass,Chebyshev I,Direct digital,30,30,0
+1135,highpass,Chebyshev I,BLT,30,30,0
+1152,lowpass,Chebyshev I,Direct digital,10,10,0
+1152,lowpass,Chebyshev I,BLT,10,10,0
+1162,highpass,Chebyshev I,Direct digital,10,10,0
+1162,highpass,Chebyshev I,BLT,10,10,0
+1175,highpass,Butterworth,Direct digital,13,13,0
+1175,highpass,Butterworth,BLT,13,13,0
+1178,lowpass,Butterworth,Direct digital,13,12,1
+1178,lowpass,Butterworth,BLT,13,12,1
+1179,lowpass,Chebyshev I,Direct digital,12,11,1
+1179,lowpass,Chebyshev I,BLT,12,11,1
+1191,highpass,Butterworth,Direct digital,77,78,1
+1191,highpass,Butterworth,BLT,77,78,1
+1193,highpass,Butterworth,Direct digital,17,18,1
+1193,highpass,Butterworth,BLT,17,18,1
+1196,lowpass,Chebyshev I,Direct digital,4,4,0
+1196,lowpass,Chebyshev I,BLT,4,4,0
+1201,lowpass,Chebyshev I,Direct digital,26,24,2
+1201,lowpass,Chebyshev I,BLT,26,24,2
+1205,lowpass,Chebyshev I,Direct digital,9,9,0
+1205,lowpass,Chebyshev I,BLT,9,9,0
+1211,lowpass,Chebyshev II,Direct digital,8,8,0
+1211,lowpass,Chebyshev II,BLT,8,8,0
+1212,highpass,Butterworth,Direct digital,9,9,0
+1212,highpass,Butterworth,BLT,9,9,0
+1217,highpass,Chebyshev I,Direct digital,14,13,1
+1217,highpass,Chebyshev I,BLT,14,13,1
+1223,lowpass,Chebyshev I,Direct digital,7,7,0
+1223,lowpass,Chebyshev I,BLT,7,7,0
+1227,lowpass,Butterworth,Direct digital,47,46,1
+1227,lowpass,Butterworth,BLT,47,46,1
+1229,lowpass,Chebyshev II,Direct digital,4,4,0
+1229,lowpass,Chebyshev II,BLT,4,4,0
+1230,highpass,Butterworth,Direct digital,9,9,0
+1230,highpass,Butterworth,BLT,9,9,0
+1231,highpass,Chebyshev II,Direct digital,5,5,0
+1231,highpass,Chebyshev II,BLT,5,5,0
+1232,highpass,Chebyshev II,Direct digital,6,6,0
+1232,highpass,Chebyshev II,BLT,6,6,0
+1242,highpass,Chebyshev II,Direct digital,5,5,0
+1242,highpass,Chebyshev II,BLT,5,5,0
+1262,highpass,Chebyshev I,Direct digital,12,12,0
+1262,highpass,Chebyshev I,BLT,12,12,0
+1264,lowpass,Chebyshev I,Direct digital,8,8,0
+1264,lowpass,Chebyshev I,BLT,8,8,0
+1265,lowpass,Chebyshev II,Direct digital,9,10,1
+1265,lowpass,Chebyshev II,BLT,9,10,1
+1269,highpass,Chebyshev I,Direct digital,8,9,1
+1269,highpass,Chebyshev I,BLT,8,9,1
+1270,highpass,Chebyshev II,Direct digital,43,39,4
+1270,highpass,Chebyshev II,BLT,43,39,4
+1271,highpass,Chebyshev II,Direct digital,10,11,1
+1271,highpass,Chebyshev II,BLT,10,11,1
+1273,highpass,Chebyshev I,Direct digital,8,8,0
+1273,highpass,Chebyshev I,BLT,8,8,0
+1274,lowpass,Butterworth,Direct digital,36,49,13
+1274,lowpass,Butterworth,BLT,36,49,13
+1293,highpass,Butterworth,Direct digital,9,10,1
+1293,highpass,Butterworth,BLT,9,10,1
+1299,lowpass,Chebyshev I,Direct digital,7,7,0
+1299,lowpass,Chebyshev I,BLT,7,7,0
+1300,lowpass,Butterworth,Direct digital,10,10,0
+1300,lowpass,Butterworth,BLT,10,10,0
+1303,lowpass,Chebyshev II,Direct digital,38,39,1
+1303,lowpass,Chebyshev II,BLT,38,39,1
+1308,lowpass,Butterworth,Direct digital,12,12,0
+1308,lowpass,Butterworth,BLT,12,12,0
+1317,lowpass,Butterworth,Direct digital,4,4,0
+1317,lowpass,Butterworth,BLT,4,4,0
+1322,highpass,Chebyshev II,Direct digital,6,6,0
+1322,highpass,Chebyshev II,BLT,6,6,0
+1323,highpass,Chebyshev I,Direct digital,4,4,0
+1323,highpass,Chebyshev I,BLT,4,4,0
+1324,highpass,Butterworth,Direct digital,5,5,0
+1324,highpass,Butterworth,BLT,5,5,0
+1331,lowpass,Chebyshev I,Direct digital,5,5,0
+1331,lowpass,Chebyshev I,BLT,5,5,0
+1337,lowpass,Butterworth,Direct digital,9,9,0
+1337,lowpass,Butterworth,BLT,9,9,0
+1346,highpass,Butterworth,Direct digital,11,11,0
+1346,highpass,Butterworth,BLT,11,11,0
+1352,highpass,Chebyshev II,Direct digital,8,8,0
+1352,highpass,Chebyshev II,BLT,8,8,0
+1360,highpass,Butterworth,Direct digital,15,15,0
+1360,highpass,Butterworth,BLT,15,15,0
+1361,highpass,Chebyshev II,Direct digital,25,24,1
+1361,highpass,Chebyshev II,BLT,25,24,1
+1362,lowpass,Chebyshev II,Direct digital,5,5,0
+1362,lowpass,Chebyshev II,BLT,5,5,0
+1363,highpass,Chebyshev II,Direct digital,43,43,0
+1363,highpass,Chebyshev II,BLT,43,43,0
+1365,lowpass,Chebyshev I,Direct digital,4,4,0
+1365,lowpass,Chebyshev I,BLT,4,4,0
+1371,highpass,Chebyshev I,Direct digital,5,5,0
+1371,highpass,Chebyshev I,BLT,5,5,0
+1375,lowpass,Chebyshev I,Direct digital,8,7,1
+1375,lowpass,Chebyshev I,BLT,8,7,1
+1378,highpass,Butterworth,Direct digital,44,48,4
+1378,highpass,Butterworth,BLT,44,48,4
+1386,highpass,Butterworth,Direct digital,4,5,1
+1386,highpass,Butterworth,BLT,4,5,1
+1393,highpass,Butterworth,Direct digital,59,58,1
+1393,highpass,Butterworth,BLT,59,58,1
+1394,lowpass,Chebyshev I,Direct digital,7,8,1
+1394,lowpass,Chebyshev I,BLT,7,8,1
+1399,lowpass,Butterworth,Direct digital,12,11,1
+1399,lowpass,Butterworth,BLT,12,11,1
+1400,highpass,Butterworth,Direct digital,13,14,1
+1400,highpass,Butterworth,BLT,13,14,1
+1408,lowpass,Chebyshev I,Direct digital,9,9,0
+1408,lowpass,Chebyshev I,BLT,9,9,0
+1412,highpass,Chebyshev II,Direct digital,5,4,1
+1412,highpass,Chebyshev II,BLT,5,4,1
+1413,highpass,Chebyshev I,Direct digital,5,5,0
+1413,highpass,Chebyshev I,BLT,5,5,0
+1414,lowpass,Butterworth,Direct digital,8,8,0
+1414,lowpass,Butterworth,BLT,8,8,0
+1422,highpass,Butterworth,Direct digital,13,13,0
+1422,highpass,Butterworth,BLT,13,13,0
+1430,highpass,Chebyshev II,Direct digital,4,4,0
+1430,highpass,Chebyshev II,BLT,4,4,0
+1438,lowpass,Chebyshev I,Direct digital,13,13,0
+1438,lowpass,Chebyshev I,BLT,13,13,0
+1443,highpass,Butterworth,Direct digital,13,12,1
+1443,highpass,Butterworth,BLT,13,12,1
+1468,highpass,Chebyshev II,Direct digital,19,18,1
+1468,highpass,Chebyshev II,BLT,19,18,1
+1476,lowpass,Chebyshev II,Direct digital,5,5,0
+1476,lowpass,Chebyshev II,BLT,5,5,0
+1489,lowpass,Chebyshev I,Direct digital,22,24,2
+1489,lowpass,Chebyshev I,BLT,22,24,2
+1492,highpass,Butterworth,Direct digital,14,14,0
+1492,highpass,Butterworth,BLT,14,14,0
+1498,highpass,Chebyshev II,Direct digital,8,9,1
+1498,highpass,Chebyshev II,BLT,8,9,1
+1503,lowpass,Chebyshev II,Direct digital,6,6,0
+1503,lowpass,Chebyshev II,BLT,6,6,0
+1510,highpass,Chebyshev I,Direct digital,13,13,0
+1510,highpass,Chebyshev I,BLT,13,13,0
+1513,highpass,Chebyshev I,Direct digital,7,8,1
+1513,highpass,Chebyshev I,BLT,7,8,1
+1534,lowpass,Butterworth,Direct digital,10,9,1
+1534,lowpass,Butterworth,BLT,10,9,1
+1537,lowpass,Butterworth,Direct digital,11,11,0
+1537,lowpass,Butterworth,BLT,11,11,0
+1548,highpass,Butterworth,Direct digital,21,24,3
+1548,highpass,Butterworth,BLT,21,24,3
+1552,highpass,Butterworth,Direct digital,16,21,5
+1552,highpass,Butterworth,BLT,16,21,5
+1554,highpass,Chebyshev I,Direct digital,10,10,0
+1554,highpass,Chebyshev I,BLT,10,10,0
+1557,lowpass,Butterworth,Direct digital,11,11,0
+1557,lowpass,Butterworth,BLT,11,11,0
+1558,lowpass,Chebyshev I,Direct digital,5,6,1
+1558,lowpass,Chebyshev I,BLT,5,6,1
+1560,lowpass,Chebyshev II,Direct digital,57,61,4
+1560,lowpass,Chebyshev II,BLT,57,61,4
+1563,lowpass,Chebyshev II,Direct digital,5,5,0
+1563,lowpass,Chebyshev II,BLT,5,5,0
+1567,lowpass,Butterworth,Direct digital,10,10,0
+1567,lowpass,Butterworth,BLT,10,10,0
+1568,highpass,Chebyshev I,Direct digital,9,9,0
+1568,highpass,Chebyshev I,BLT,9,9,0
+1570,lowpass,Chebyshev I,Direct digital,7,6,1
+1570,lowpass,Chebyshev I,BLT,7,6,1
+1578,highpass,Chebyshev I,Direct digital,5,5,0
+1578,highpass,Chebyshev I,BLT,5,5,0
+1579,highpass,Chebyshev I,Direct digital,17,17,0
+1579,highpass,Chebyshev I,BLT,17,17,0
+1583,highpass,Chebyshev I,Direct digital,6,6,0
+1583,highpass,Chebyshev I,BLT,6,6,0
+1584,lowpass,Chebyshev I,Direct digital,20,23,3
+1584,lowpass,Chebyshev I,BLT,20,23,3
+1587,highpass,Butterworth,Direct digital,17,17,0
+1587,highpass,Butterworth,BLT,17,17,0
+1588,highpass,Butterworth,Direct digital,28,27,1
+1588,highpass,Butterworth,BLT,28,27,1
+1601,lowpass,Chebyshev II,Direct digital,5,6,1
+1601,lowpass,Chebyshev II,BLT,5,6,1
+1602,lowpass,Butterworth,Direct digital,4,4,0
+1602,lowpass,Butterworth,BLT,4,4,0
+1607,highpass,Butterworth,Direct digital,73,66,7
+1607,highpass,Butterworth,BLT,73,66,7
+1608,lowpass,Chebyshev I,Direct digital,9,9,0
+1608,lowpass,Chebyshev I,BLT,9,9,0
+1612,lowpass,Chebyshev II,Direct digital,10,10,0
+1612,lowpass,Chebyshev II,BLT,10,10,0
+1614,lowpass,Butterworth,Direct digital,11,12,1
+1614,lowpass,Butterworth,BLT,11,12,1
+1615,highpass,Chebyshev II,Direct digital,19,19,0
+1615,highpass,Chebyshev II,BLT,19,19,0
+1619,lowpass,Chebyshev I,Direct digital,5,5,0
+1619,lowpass,Chebyshev I,BLT,5,5,0
+1621,lowpass,Butterworth,Direct digital,9,9,0
+1621,lowpass,Butterworth,BLT,9,9,0
+1625,lowpass,Butterworth,Direct digital,25,28,3
+1625,lowpass,Butterworth,BLT,25,28,3
+1629,lowpass,Butterworth,Direct digital,10,10,0
+1629,lowpass,Butterworth,BLT,10,10,0
+1638,highpass,Chebyshev I,Direct digital,9,9,0
+1638,highpass,Chebyshev I,BLT,9,9,0
+1642,highpass,Butterworth,Direct digital,24,24,0
+1642,highpass,Butterworth,BLT,24,24,0
+1660,lowpass,Chebyshev I,Direct digital,10,10,0
+1660,lowpass,Chebyshev I,BLT,10,10,0
+1666,highpass,Butterworth,Direct digital,10,10,0
+1666,highpass,Butterworth,BLT,10,10,0
+1671,highpass,Chebyshev I,Direct digital,7,8,1
+1671,highpass,Chebyshev I,BLT,7,8,1
+1692,lowpass,Chebyshev II,Direct digital,4,4,0
+1692,lowpass,Chebyshev II,BLT,4,4,0
+1695,lowpass,Butterworth,Direct digital,4,4,0
+1695,lowpass,Butterworth,BLT,4,4,0
+1707,lowpass,Butterworth,Direct digital,14,14,0
+1707,lowpass,Butterworth,BLT,14,14,0
+1711,lowpass,Chebyshev I,Direct digital,22,21,1
+1711,lowpass,Chebyshev I,BLT,22,21,1
+1726,lowpass,Chebyshev I,Direct digital,29,29,0
+1726,lowpass,Chebyshev I,BLT,29,29,0
+1733,lowpass,Chebyshev I,Direct digital,29,29,0
+1733,lowpass,Chebyshev I,BLT,29,29,0
+1737,highpass,Butterworth,Direct digital,10,10,0
+1737,highpass,Butterworth,BLT,10,10,0
+1739,highpass,Butterworth,Direct digital,5,5,0
+1739,highpass,Butterworth,BLT,5,5,0
+1740,highpass,Chebyshev II,Direct digital,5,5,0
+1740,highpass,Chebyshev II,BLT,5,5,0
+1741,highpass,Butterworth,Direct digital,69,69,0
+1741,highpass,Butterworth,BLT,69,69,0
+1742,lowpass,Chebyshev II,Direct digital,8,8,0
+1742,lowpass,Chebyshev II,BLT,8,8,0
+1745,lowpass,Butterworth,Direct digital,44,43,1
+1745,lowpass,Butterworth,BLT,44,43,1
+1746,highpass,Chebyshev I,Direct digital,5,5,0
+1746,highpass,Chebyshev I,BLT,5,5,0
+1747,lowpass,Butterworth,Direct digital,51,47,4
+1747,lowpass,Butterworth,BLT,51,47,4
+1749,lowpass,Butterworth,Direct digital,67,60,7
+1749,lowpass,Butterworth,BLT,67,60,7
+1753,lowpass,Chebyshev II,Direct digital,7,7,0
+1753,lowpass,Chebyshev II,BLT,7,7,0
+1757,highpass,Butterworth,Direct digital,39,44,5
+1757,highpass,Butterworth,BLT,39,44,5
+1761,highpass,Butterworth,Direct digital,10,10,0
+1761,highpass,Butterworth,BLT,10,10,0
+1763,lowpass,Chebyshev II,Direct digital,13,13,0
+1763,lowpass,Chebyshev II,BLT,13,13,0
+1764,highpass,Butterworth,Direct digital,30,31,1
+1764,highpass,Butterworth,BLT,30,31,1
+1771,lowpass,Chebyshev II,Direct digital,48,49,1
+1771,lowpass,Chebyshev II,BLT,48,49,1
+1777,lowpass,Chebyshev I,Direct digital,15,15,0
+1777,lowpass,Chebyshev I,BLT,15,15,0
+1781,lowpass,Butterworth,Direct digital,5,6,1
+1781,lowpass,Butterworth,BLT,5,6,1
+1789,highpass,Butterworth,Direct digital,48,47,1
+1789,highpass,Butterworth,BLT,48,47,1
+1794,highpass,Chebyshev II,Direct digital,33,34,1
+1794,highpass,Chebyshev II,BLT,33,34,1
+1799,highpass,Chebyshev II,Direct digital,11,11,0
+1799,highpass,Chebyshev II,BLT,11,11,0
+1801,lowpass,Chebyshev I,Direct digital,5,5,0
+1801,lowpass,Chebyshev I,BLT,5,5,0
+1802,lowpass,Chebyshev II,Direct digital,5,5,0
+1802,lowpass,Chebyshev II,BLT,5,5,0
+1805,lowpass,Chebyshev I,Direct digital,41,39,2
+1805,lowpass,Chebyshev I,BLT,41,39,2
+1814,highpass,Chebyshev I,Direct digital,41,40,1
+1814,highpass,Chebyshev I,BLT,41,40,1
+1815,lowpass,Chebyshev I,Direct digital,5,5,0
+1815,lowpass,Chebyshev I,BLT,5,5,0
+1818,lowpass,Chebyshev II,Direct digital,5,5,0
+1818,lowpass,Chebyshev II,BLT,5,5,0
+1819,lowpass,Chebyshev II,Direct digital,7,8,1
+1819,lowpass,Chebyshev II,BLT,7,8,1
+1821,lowpass,Butterworth,Direct digital,20,21,1
+1821,lowpass,Butterworth,BLT,20,21,1
+1831,lowpass,Chebyshev II,Direct digital,11,11,0
+1831,lowpass,Chebyshev II,BLT,11,11,0
+1832,lowpass,Chebyshev II,Direct digital,5,5,0
+1832,lowpass,Chebyshev II,BLT,5,5,0
+1840,lowpass,Chebyshev I,Direct digital,7,7,0
+1840,lowpass,Chebyshev I,BLT,7,7,0
+1841,lowpass,Butterworth,Direct digital,9,9,0
+1841,lowpass,Butterworth,BLT,9,9,0
+1843,lowpass,Chebyshev II,Direct digital,7,7,0
+1843,lowpass,Chebyshev II,BLT,7,7,0
+1848,lowpass,Chebyshev I,Direct digital,5,5,0
+1848,lowpass,Chebyshev I,BLT,5,5,0
+1861,highpass,Chebyshev I,Direct digital,27,25,2
+1861,highpass,Chebyshev I,BLT,27,25,2
+1862,highpass,Butterworth,Direct digital,66,64,2
+1862,highpass,Butterworth,BLT,66,64,2
+1869,lowpass,Chebyshev II,Direct digital,9,10,1
+1869,lowpass,Chebyshev II,BLT,9,10,1
+1877,highpass,Chebyshev I,Direct digital,14,14,0
+1877,highpass,Chebyshev I,BLT,14,14,0
+1878,lowpass,Chebyshev I,Direct digital,5,5,0
+1878,lowpass,Chebyshev I,BLT,5,5,0
+1883,highpass,Butterworth,Direct digital,9,9,0
+1883,highpass,Butterworth,BLT,9,9,0
+1886,lowpass,Butterworth,Direct digital,8,8,0
+1886,lowpass,Butterworth,BLT,8,8,0
+1899,highpass,Chebyshev I,Direct digital,16,18,2
+1899,highpass,Chebyshev I,BLT,16,18,2
+1905,highpass,Butterworth,Direct digital,5,5,0
+1905,highpass,Butterworth,BLT,5,5,0
+1913,highpass,Chebyshev I,Direct digital,11,11,0
+1913,highpass,Chebyshev I,BLT,11,11,0
+1916,highpass,Butterworth,Direct digital,47,48,1
+1916,highpass,Butterworth,BLT,47,48,1
+1921,highpass,Chebyshev I,Direct digital,11,10,1
+1921,highpass,Chebyshev I,BLT,11,10,1
+1922,highpass,Butterworth,Direct digital,30,29,1
+1922,highpass,Butterworth,BLT,30,29,1
+1930,highpass,Butterworth,Direct digital,28,27,1
+1930,highpass,Butterworth,BLT,28,27,1
+1940,highpass,Butterworth,Direct digital,5,5,0
+1940,highpass,Butterworth,BLT,5,5,0
+1942,highpass,Chebyshev I,Direct digital,4,4,0
+1942,highpass,Chebyshev I,BLT,4,4,0
+1950,highpass,Chebyshev II,Direct digital,13,13,0
+1950,highpass,Chebyshev II,BLT,13,13,0
+1961,highpass,Chebyshev I,Direct digital,5,5,0
+1961,highpass,Chebyshev I,BLT,5,5,0
+1964,highpass,Chebyshev II,Direct digital,22,23,1
+1964,highpass,Chebyshev II,BLT,22,23,1
+1966,lowpass,Chebyshev II,Direct digital,15,13,2
+1966,lowpass,Chebyshev II,BLT,15,13,2
+1967,highpass,Chebyshev I,Direct digital,12,12,0
+1967,highpass,Chebyshev I,BLT,12,12,0
+1968,highpass,Butterworth,Direct digital,10,10,0
+1968,highpass,Butterworth,BLT,10,10,0
+1992,highpass,Chebyshev I,Direct digital,12,11,1
+1992,highpass,Chebyshev I,BLT,12,11,1
+1993,highpass,Butterworth,Direct digital,66,78,12
+1993,highpass,Butterworth,BLT,66,78,12
+2002,lowpass,Chebyshev I,Direct digital,23,23,0
+2002,lowpass,Chebyshev I,BLT,23,23,0
+2013,highpass,Chebyshev II,Direct digital,11,12,1
+2013,highpass,Chebyshev II,BLT,11,12,1
+2019,highpass,Chebyshev I,Direct digital,4,5,1
+2019,highpass,Chebyshev I,BLT,4,5,1
+2025,lowpass,Chebyshev II,Direct digital,12,12,0
+2025,lowpass,Chebyshev II,BLT,12,12,0
+2026,highpass,Butterworth,Direct digital,23,24,1
+2026,highpass,Butterworth,BLT,23,24,1
+2030,lowpass,Butterworth,Direct digital,60,56,4
+2030,lowpass,Butterworth,BLT,60,56,4
+2031,highpass,Chebyshev I,Direct digital,12,12,0
+2031,highpass,Chebyshev I,BLT,12,12,0
+2032,lowpass,Butterworth,Direct digital,3,3,0
+2032,lowpass,Butterworth,BLT,3,3,0
+2046,lowpass,Chebyshev I,Direct digital,4,4,0
+2046,lowpass,Chebyshev I,BLT,4,4,0
+2067,lowpass,Butterworth,Direct digital,39,40,1
+2067,lowpass,Butterworth,BLT,39,40,1
+2070,highpass,Butterworth,Direct digital,5,5,0
+2070,highpass,Butterworth,BLT,5,5,0
+2084,lowpass,Butterworth,Direct digital,47,55,8
+2084,lowpass,Butterworth,BLT,47,55,8
+2088,lowpass,Chebyshev II,Direct digital,5,5,0
+2088,lowpass,Chebyshev II,BLT,5,5,0
+2090,lowpass,Butterworth,Direct digital,4,4,0
+2090,lowpass,Butterworth,BLT,4,4,0
+2094,highpass,Chebyshev I,Direct digital,12,12,0
+2094,highpass,Chebyshev I,BLT,12,12,0
+2096,highpass,Chebyshev II,Direct digital,4,4,0
+2096,highpass,Chebyshev II,BLT,4,4,0
+2097,highpass,Chebyshev II,Direct digital,21,22,1
+2097,highpass,Chebyshev II,BLT,21,22,1
+2098,highpass,Butterworth,Direct digital,5,5,0
+2098,highpass,Butterworth,BLT,5,5,0
+2112,lowpass,Chebyshev I,Direct digital,4,5,1
+2112,lowpass,Chebyshev I,BLT,4,5,1
+2113,lowpass,Chebyshev II,Direct digital,48,50,2
+2113,lowpass,Chebyshev II,BLT,48,50,2
+2114,lowpass,Butterworth,Direct digital,22,22,0
+2114,lowpass,Butterworth,BLT,22,22,0
+2115,lowpass,Chebyshev I,Direct digital,11,11,0
+2115,lowpass,Chebyshev I,BLT,11,11,0
+2124,lowpass,Chebyshev I,Direct digital,12,12,0
+2124,lowpass,Chebyshev I,BLT,12,12,0
+2125,lowpass,Butterworth,Direct digital,26,24,2
+2125,lowpass,Butterworth,BLT,26,24,2
+2133,highpass,Chebyshev I,Direct digital,11,11,0
+2133,highpass,Chebyshev I,BLT,11,11,0
+2145,lowpass,Butterworth,Direct digital,52,49,3
+2145,lowpass,Butterworth,BLT,52,49,3
+2152,highpass,Chebyshev I,Direct digital,14,13,1
+2152,highpass,Chebyshev I,BLT,14,13,1
+2154,lowpass,Butterworth,Direct digital,33,36,3
+2154,lowpass,Butterworth,BLT,33,36,3
+2156,lowpass,Chebyshev I,Direct digital,27,28,1
+2156,lowpass,Chebyshev I,BLT,27,28,1
+2164,lowpass,Butterworth,Direct digital,27,29,2
+2164,lowpass,Butterworth,BLT,27,29,2
+2165,lowpass,Chebyshev I,Direct digital,12,12,0
+2165,lowpass,Chebyshev I,BLT,12,12,0
+2167,lowpass,Chebyshev II,Direct digital,13,13,0
+2167,lowpass,Chebyshev II,BLT,13,13,0
+2168,highpass,Chebyshev II,Direct digital,11,11,0
+2168,highpass,Chebyshev II,BLT,11,11,0
+2175,highpass,Chebyshev II,Direct digital,11,12,1
+2175,highpass,Chebyshev II,BLT,11,12,1
+2176,lowpass,Butterworth,Direct digital,22,21,1
+2176,lowpass,Butterworth,BLT,22,21,1
+2177,lowpass,Chebyshev I,Direct digital,13,13,0
+2177,lowpass,Chebyshev I,BLT,13,13,0
+2179,lowpass,Chebyshev I,Direct digital,21,23,2
+2179,lowpass,Chebyshev I,BLT,21,23,2
+2187,highpass,Butterworth,Direct digital,9,9,0
+2187,highpass,Butterworth,BLT,9,9,0
+2191,lowpass,Butterworth,Direct digital,51,56,5
+2191,lowpass,Butterworth,BLT,51,56,5
+2207,highpass,Chebyshev I,Direct digital,29,29,0
+2207,highpass,Chebyshev I,BLT,29,29,0
+2214,highpass,Chebyshev I,Direct digital,4,4,0
+2214,highpass,Chebyshev I,BLT,4,4,0
+2220,lowpass,Butterworth,Direct digital,63,64,1
+2220,lowpass,Butterworth,BLT,63,64,1
+2226,lowpass,Chebyshev II,Direct digital,12,12,0
+2226,lowpass,Chebyshev II,BLT,12,12,0
+2231,highpass,Butterworth,Direct digital,41,44,3
+2231,highpass,Butterworth,BLT,41,44,3
+2234,highpass,Chebyshev I,Direct digital,5,5,0
+2234,highpass,Chebyshev I,BLT,5,5,0
+2235,lowpass,Chebyshev I,Direct digital,12,11,1
+2235,lowpass,Chebyshev I,BLT,12,11,1
+2237,highpass,Butterworth,Direct digital,55,61,6
+2237,highpass,Butterworth,BLT,55,61,6
+2244,highpass,Butterworth,Direct digital,45,47,2
+2244,highpass,Butterworth,BLT,45,47,2
+2255,highpass,Butterworth,Direct digital,27,26,1
+2255,highpass,Butterworth,BLT,27,26,1
+2257,highpass,Butterworth,Direct digital,9,9,0
+2257,highpass,Butterworth,BLT,9,9,0
+2269,lowpass,Chebyshev II,Direct digital,78,75,3
+2269,lowpass,Chebyshev II,BLT,78,75,3
+2273,lowpass,Chebyshev II,Direct digital,12,12,0
+2273,lowpass,Chebyshev II,BLT,12,12,0
+2276,highpass,Chebyshev I,Direct digital,5,5,0
+2276,highpass,Chebyshev I,BLT,5,5,0
+2285,highpass,Chebyshev I,Direct digital,33,33,0
+2285,highpass,Chebyshev I,BLT,33,33,0
+2291,lowpass,Chebyshev I,Direct digital,11,12,1
+2291,lowpass,Chebyshev I,BLT,11,12,1
+2292,lowpass,Chebyshev II,Direct digital,11,11,0
+2292,lowpass,Chebyshev II,BLT,11,11,0
+2298,lowpass,Butterworth,Direct digital,41,35,6
+2298,lowpass,Butterworth,BLT,41,35,6
+2304,lowpass,Butterworth,Direct digital,22,21,1
+2304,lowpass,Butterworth,BLT,22,21,1
+2308,highpass,Chebyshev I,Direct digital,38,42,4
+2308,highpass,Chebyshev I,BLT,38,42,4
+2316,lowpass,Butterworth,Direct digital,72,71,1
+2316,lowpass,Butterworth,BLT,72,71,1
+2317,highpass,Chebyshev II,Direct digital,4,4,0
+2317,highpass,Chebyshev II,BLT,4,4,0
+2324,highpass,Chebyshev II,Direct digital,5,5,0
+2324,highpass,Chebyshev II,BLT,5,5,0
+2331,highpass,Butterworth,Direct digital,9,9,0
+2331,highpass,Butterworth,BLT,9,9,0
+2333,lowpass,Chebyshev I,Direct digital,11,11,0
+2333,lowpass,Chebyshev I,BLT,11,11,0
+2343,lowpass,Chebyshev II,Direct digital,14,13,1
+2343,lowpass,Chebyshev II,BLT,14,13,1
+2359,highpass,Chebyshev II,Direct digital,5,5,0
+2359,highpass,Chebyshev II,BLT,5,5,0
+2367,lowpass,Chebyshev II,Direct digital,33,39,6
+2367,lowpass,Chebyshev II,BLT,33,39,6
+2371,highpass,Butterworth,Direct digital,9,10,1
+2371,highpass,Butterworth,BLT,9,10,1
+2373,lowpass,Chebyshev I,Direct digital,31,30,1
+2373,lowpass,Chebyshev I,BLT,31,30,1
+2377,highpass,Chebyshev I,Direct digital,5,5,0
+2377,highpass,Chebyshev I,BLT,5,5,0
+2378,highpass,Chebyshev I,Direct digital,28,29,1
+2378,highpass,Chebyshev I,BLT,28,29,1
+2393,lowpass,Chebyshev I,Direct digital,38,41,3
+2393,lowpass,Chebyshev I,BLT,38,41,3
+2395,highpass,Chebyshev I,Direct digital,27,26,1
+2395,highpass,Chebyshev I,BLT,27,26,1
+2405,lowpass,Chebyshev I,Direct digital,26,28,2
+2405,lowpass,Chebyshev I,BLT,26,28,2
+2408,highpass,Chebyshev I,Direct digital,5,5,0
+2408,highpass,Chebyshev I,BLT,5,5,0
+2412,highpass,Chebyshev I,Direct digital,4,4,0
+2412,highpass,Chebyshev I,BLT,4,4,0
+2415,highpass,Chebyshev I,Direct digital,23,25,2
+2415,highpass,Chebyshev I,BLT,23,25,2
+2418,lowpass,Chebyshev II,Direct digital,22,22,0
+2418,lowpass,Chebyshev II,BLT,22,22,0
+2419,highpass,Chebyshev I,Direct digital,5,5,0
+2419,highpass,Chebyshev I,BLT,5,5,0
+2426,highpass,Chebyshev II,Direct digital,5,5,0
+2426,highpass,Chebyshev II,BLT,5,5,0
+2442,highpass,Chebyshev II,Direct digital,27,26,1
+2442,highpass,Chebyshev II,BLT,27,26,1
+2443,highpass,Chebyshev I,Direct digital,26,26,0
+2443,highpass,Chebyshev I,BLT,26,26,0
+2454,lowpass,Chebyshev I,Direct digital,26,24,2
+2454,lowpass,Chebyshev I,BLT,26,24,2
+2459,highpass,Chebyshev II,Direct digital,21,22,1
+2459,highpass,Chebyshev II,BLT,21,22,1
+2471,highpass,Butterworth,Direct digital,5,5,0
+2471,highpass,Butterworth,BLT,5,5,0
+2473,highpass,Chebyshev II,Direct digital,23,24,1
+2473,highpass,Chebyshev II,BLT,23,24,1
+2474,lowpass,Chebyshev I,Direct digital,33,34,1
+2474,lowpass,Chebyshev I,BLT,33,34,1
+2476,highpass,Chebyshev I,Direct digital,32,33,1
+2476,highpass,Chebyshev I,BLT,32,33,1
+2478,highpass,Chebyshev I,Direct digital,22,21,1
+2478,highpass,Chebyshev I,BLT,22,21,1
+2483,highpass,Chebyshev II,Direct digital,75,70,5
+2483,highpass,Chebyshev II,BLT,75,70,5
+2498,lowpass,Chebyshev II,Direct digital,27,28,1
+2498,lowpass,Chebyshev II,BLT,27,28,1
+2502,highpass,Chebyshev II,Direct digital,39,42,3
+2502,highpass,Chebyshev II,BLT,39,42,3
+2504,highpass,Chebyshev II,Direct digital,28,25,3
+2504,highpass,Chebyshev II,BLT,28,25,3
+2506,highpass,Chebyshev I,Direct digital,45,44,1
+2506,highpass,Chebyshev I,BLT,45,44,1
+2524,highpass,Chebyshev I,Direct digital,29,30,1
+2524,highpass,Chebyshev I,BLT,29,30,1
+2526,highpass,Chebyshev II,Direct digital,22,24,2
+2526,highpass,Chebyshev II,BLT,22,24,2
+2529,highpass,Chebyshev I,Direct digital,42,46,4
+2529,highpass,Chebyshev I,BLT,42,46,4
+2530,highpass,Chebyshev I,Direct digital,26,26,0
+2530,highpass,Chebyshev I,BLT,26,26,0
+2532,highpass,Chebyshev II,Direct digital,21,22,1
+2532,highpass,Chebyshev II,BLT,21,22,1
+2539,highpass,Chebyshev II,Direct digital,41,40,1
+2539,highpass,Chebyshev II,BLT,41,40,1
+2543,highpass,Chebyshev II,Direct digital,32,31,1
+2543,highpass,Chebyshev II,BLT,32,31,1
+2547,lowpass,Chebyshev I,Direct digital,27,25,2
+2547,lowpass,Chebyshev I,BLT,27,25,2
+2556,highpass,Chebyshev I,Direct digital,43,43,0
+2556,highpass,Chebyshev I,BLT,43,43,0
+2565,lowpass,Chebyshev II,Direct digital,21,22,1
+2565,lowpass,Chebyshev II,BLT,21,22,1
+2568,highpass,Chebyshev II,Direct digital,31,29,2
+2568,highpass,Chebyshev II,BLT,31,29,2
+2570,highpass,Chebyshev II,Direct digital,23,22,1
+2570,highpass,Chebyshev II,BLT,23,22,1
+2577,lowpass,Chebyshev I,Direct digital,27,26,1
+2577,lowpass,Chebyshev I,BLT,27,26,1
+2580,highpass,Butterworth,Direct digital,5,5,0
+2580,highpass,Butterworth,BLT,5,5,0
+2588,lowpass,Chebyshev I,Direct digital,49,47,2
+2588,lowpass,Chebyshev I,BLT,49,47,2
+2593,lowpass,Chebyshev II,Direct digital,81,77,4
+2593,lowpass,Chebyshev II,BLT,81,77,4
+2594,lowpass,Chebyshev I,Direct digital,29,32,3
+2594,lowpass,Chebyshev I,BLT,29,32,3
+2595,highpass,Chebyshev I,Direct digital,23,22,1
+2595,highpass,Chebyshev I,BLT,23,22,1
+2602,lowpass,Chebyshev I,Direct digital,39,40,1
+2602,lowpass,Chebyshev I,BLT,39,40,1
+2604,highpass,Chebyshev II,Direct digital,61,64,3
+2604,highpass,Chebyshev II,BLT,61,64,3
+2619,lowpass,Chebyshev I,Direct digital,36,37,1
+2619,lowpass,Chebyshev I,BLT,36,37,1
+2620,highpass,Chebyshev I,Direct digital,23,23,0
+2620,highpass,Chebyshev I,BLT,23,23,0
+2628,lowpass,Chebyshev I,Direct digital,27,27,0
+2628,lowpass,Chebyshev I,BLT,27,27,0
+2632,lowpass,Chebyshev I,Direct digital,24,23,1
+2632,lowpass,Chebyshev I,BLT,24,23,1
+2637,lowpass,Chebyshev II,Direct digital,28,26,2
+2637,lowpass,Chebyshev II,BLT,28,26,2
+2645,lowpass,Chebyshev I,Direct digital,31,31,0
+2645,lowpass,Chebyshev I,BLT,31,31,0
+2646,highpass,Butterworth,Direct digital,5,5,0
+2646,highpass,Butterworth,BLT,5,5,0
+2660,highpass,Chebyshev II,Direct digital,22,22,0
+2660,highpass,Chebyshev II,BLT,22,22,0
+2664,highpass,Chebyshev II,Direct digital,27,29,2
+2664,highpass,Chebyshev II,BLT,27,29,2
+2668,highpass,Chebyshev II,Direct digital,46,47,1
+2668,highpass,Chebyshev II,BLT,46,47,1
+2669,highpass,Chebyshev II,Direct digital,32,32,0
+2669,highpass,Chebyshev II,BLT,32,32,0
+2678,highpass,Chebyshev I,Direct digital,32,30,2
+2678,highpass,Chebyshev I,BLT,32,30,2
+2679,highpass,Chebyshev II,Direct digital,29,29,0
+2679,highpass,Chebyshev II,BLT,29,29,0
+2682,highpass,Chebyshev I,Direct digital,30,31,1
+2682,highpass,Chebyshev I,BLT,30,31,1
+2688,lowpass,Chebyshev I,Direct digital,64,61,3
+2688,lowpass,Chebyshev I,BLT,64,61,3
+2690,highpass,Chebyshev II,Direct digital,40,41,1
+2690,highpass,Chebyshev II,BLT,40,41,1
+2701,highpass,Chebyshev II,Direct digital,21,22,1
+2701,highpass,Chebyshev II,BLT,21,22,1
+2704,highpass,Chebyshev II,Direct digital,64,62,2
+2704,highpass,Chebyshev II,BLT,64,62,2
+2706,highpass,Chebyshev I,Direct digital,22,23,1
+2706,highpass,Chebyshev I,BLT,22,23,1
+2707,highpass,Chebyshev I,Direct digital,75,74,1
+2707,highpass,Chebyshev I,BLT,75,74,1
+2710,highpass,Chebyshev I,Direct digital,24,25,1
+2710,highpass,Chebyshev I,BLT,24,25,1
+2719,highpass,Chebyshev II,Direct digital,21,20,1
+2719,highpass,Chebyshev II,BLT,21,20,1
+2725,highpass,Chebyshev I,Direct digital,46,49,3
+2725,highpass,Chebyshev I,BLT,46,49,3
+2731,highpass,Chebyshev I,Direct digital,49,49,0
+2731,highpass,Chebyshev I,BLT,49,49,0
+2738,lowpass,Chebyshev II,Direct digital,48,44,4
+2738,lowpass,Chebyshev II,BLT,48,44,4
+2739,highpass,Chebyshev I,Direct digital,79,79,0
+2739,highpass,Chebyshev I,BLT,79,79,0
+2744,highpass,Chebyshev II,Direct digital,56,60,4
+2744,highpass,Chebyshev II,BLT,56,60,4
+2745,lowpass,Chebyshev I,Direct digital,41,42,1
+2745,lowpass,Chebyshev I,BLT,41,42,1
+2749,lowpass,Chebyshev II,Direct digital,98,91,7
+2749,lowpass,Chebyshev II,BLT,98,91,7
+2753,lowpass,Chebyshev I,Direct digital,51,52,1
+2753,lowpass,Chebyshev I,BLT,51,52,1
+2759,highpass,Chebyshev II,Direct digital,79,74,5
+2759,highpass,Chebyshev II,BLT,79,74,5
+2760,highpass,Chebyshev I,Direct digital,46,45,1
+2760,highpass,Chebyshev I,BLT,46,45,1
+2767,highpass,Chebyshev I,Direct digital,43,45,2
+2767,highpass,Chebyshev I,BLT,43,45,2
+2777,highpass,Chebyshev I,Direct digital,44,43,1
+2777,highpass,Chebyshev I,BLT,44,43,1
+2780,highpass,Chebyshev I,Direct digital,71,73,2
+2780,highpass,Chebyshev I,BLT,71,73,2
+2782,lowpass,Chebyshev I,Direct digital,52,53,1
+2782,lowpass,Chebyshev I,BLT,52,53,1
+2787,lowpass,Chebyshev II,Direct digital,51,48,3
+2787,lowpass,Chebyshev II,BLT,51,48,3
+2812,highpass,Chebyshev II,Direct digital,53,56,3
+2812,highpass,Chebyshev II,BLT,53,56,3
+2826,highpass,Chebyshev I,Direct digital,71,74,3
+2826,highpass,Chebyshev I,BLT,71,74,3
+2847,lowpass,Chebyshev II,Direct digital,72,71,1
+2847,lowpass,Chebyshev II,BLT,72,71,1
+2848,highpass,Chebyshev II,Direct digital,44,43,1
+2848,highpass,Chebyshev II,BLT,44,43,1
+2852,highpass,Chebyshev I,Direct digital,42,44,2
+2852,highpass,Chebyshev I,BLT,42,44,2
+2856,highpass,Chebyshev I,Direct digital,56,56,0
+2856,highpass,Chebyshev I,BLT,56,56,0
+2862,highpass,Chebyshev I,Direct digital,61,61,0
+2862,highpass,Chebyshev I,BLT,61,61,0
+2863,lowpass,Chebyshev II,Direct digital,59,59,0
+2863,lowpass,Chebyshev II,BLT,59,59,0
+2864,lowpass,Chebyshev I,Direct digital,61,62,1
+2864,lowpass,Chebyshev I,BLT,61,62,1
+2868,highpass,Chebyshev II,Direct digital,74,71,3
+2868,highpass,Chebyshev II,BLT,74,71,3
+2874,highpass,Chebyshev II,Direct digital,60,66,6
+2874,highpass,Chebyshev II,BLT,60,66,6
+2876,lowpass,Chebyshev II,Direct digital,52,56,4
+2876,lowpass,Chebyshev II,BLT,52,56,4
+2882,highpass,Chebyshev I,Direct digital,43,45,2
+2882,highpass,Chebyshev I,BLT,43,45,2
+2884,lowpass,Chebyshev I,Direct digital,42,39,3
+2884,lowpass,Chebyshev I,BLT,42,39,3
+2888,lowpass,Chebyshev I,Direct digital,41,44,3
+2888,lowpass,Chebyshev I,BLT,41,44,3
+2891,lowpass,Chebyshev II,Direct digital,62,65,3
+2891,lowpass,Chebyshev II,BLT,62,65,3
+2896,highpass,Chebyshev II,Direct digital,55,53,2
+2896,highpass,Chebyshev II,BLT,55,53,2
+2898,lowpass,Chebyshev I,Direct digital,95,91,4
+2898,lowpass,Chebyshev I,BLT,95,91,4
+2902,lowpass,Chebyshev II,Direct digital,46,42,4
+2902,lowpass,Chebyshev II,BLT,46,42,4
+2910,highpass,Chebyshev I,Direct digital,58,57,1
+2910,highpass,Chebyshev I,BLT,58,57,1
+2917,lowpass,Chebyshev I,Direct digital,54,53,1
+2917,lowpass,Chebyshev I,BLT,54,53,1
+2928,highpass,Chebyshev I,Direct digital,63,61,2
+2928,highpass,Chebyshev I,BLT,63,61,2
+2930,highpass,Chebyshev II,Direct digital,42,40,2
+2930,highpass,Chebyshev II,BLT,42,40,2
+2931,lowpass,Chebyshev I,Direct digital,43,44,1
+2931,lowpass,Chebyshev I,BLT,43,44,1
+2935,lowpass,Chebyshev II,Direct digital,62,62,0
+2935,lowpass,Chebyshev II,BLT,62,62,0
+2958,highpass,Chebyshev I,Direct digital,60,59,1
+2958,highpass,Chebyshev I,BLT,60,59,1
+2959,highpass,Chebyshev II,Direct digital,55,54,1
+2959,highpass,Chebyshev II,BLT,55,54,1
+2968,lowpass,Chebyshev II,Direct digital,61,61,0
+2968,lowpass,Chebyshev II,BLT,61,61,0
+2969,highpass,Chebyshev I,Direct digital,86,83,3
+2969,highpass,Chebyshev I,BLT,86,83,3
+2987,highpass,Chebyshev I,Direct digital,42,43,1
+2987,highpass,Chebyshev I,BLT,42,43,1
+2989,highpass,Chebyshev I,Direct digital,62,62,0
+2989,highpass,Chebyshev I,BLT,62,62,0
+2992,highpass,Chebyshev II,Direct digital,42,47,5
+2992,highpass,Chebyshev II,BLT,42,47,5
+2995,highpass,Chebyshev I,Direct digital,55,57,2
+2995,highpass,Chebyshev I,BLT,55,57,2
+2997,highpass,Chebyshev I,Direct digital,43,44,1
+2997,highpass,Chebyshev I,BLT,43,44,1
+3000,highpass,Chebyshev II,Direct digital,44,46,2
+3000,highpass,Chebyshev II,BLT,44,46,2

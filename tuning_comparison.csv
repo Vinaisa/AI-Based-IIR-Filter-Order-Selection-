@@ -1,0 +1,7 @@
+Model,Exact accuracy (%),Within ±1 (%),MAE,CV MAE,Best parameters
+Tuned Extra Trees,50.33,81.83,0.95,1.0615,"{'max_depth': None, 'max_features': 0.7, 'min_samples_leaf': 2, 'n_estimators': 700}"
+Family-specific: Chebyshev I,49.34,79.91,0.8996,,"Extra Trees, default baseline settings"
+Existing baseline: Extra Trees Regressor,48.83,80.83,0.98,,Previously saved model
+Family-specific: Chebyshev II,48.63,78.14,1.0219,,"Extra Trees, default baseline settings"
+Tuned Random Forest,44.25,77.17,1.125,1.3354,"{'max_depth': None, 'max_features': 0.7, 'min_samples_leaf': 1, 'n_estimators': 400}"
+Family-specific: Butterworth,41.49,76.06,1.3564,,"Extra Trees, default baseline settings"
