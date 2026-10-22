@@ -14,90 +14,172 @@ RESULT_FILE = "model_comparison.csv"
 
 
 def main():
+    print("Loading model, dataset and held-out test data...")
+
     saved_data = joblib.load(MODEL_FILE)
     test_df = pd.read_csv(TEST_FILE)
     raw_df = pd.read_csv(DATA_FILE)
 
     if "models" not in saved_data:
-        raise KeyError("The saved model artifact has no 'models' entry.")
+        raise KeyError("Model artifact has no 'models' entry.")
 
     if "training_columns" not in saved_data:
-        raise KeyError(
-            "The saved model artifact has no 'training_columns' entry."
-        )
+        raise KeyError("Model artifact has no 'training_columns' entry.")
 
-    # Recreate features using the actual training implementation.
-    processed_df, X_all, _, _ = engineer_features(raw_df)
-
+    models = saved_data["models"]
     training_columns = saved_data["training_columns"]
-    X_all = X_all.reindex(columns=training_columns, fill_value=0)
 
-    # Match the saved held-out specifications by spec_id and design method.
+    if not models:
+        raise ValueError("No trained models were found.")
+
     key_columns = ["spec_id", "design_method"]
 
-    if not all(col in test_df.columns for col in key_columns):
-        raise ValueError("Test file is missing spec_id or design_method.")
+    for column in key_columns:
+        if column not in raw_df.columns or column not in test_df.columns:
+            raise ValueError(
+                f"Both CSV files must contain '{column}'."
+            )
 
-    test_keys = test_df[key_columns].copy()
-    test_keys["spec_id"] = test_keys["spec_id"].astype(str)
-    processed_df = processed_df.copy()
-    processed_df["spec_id"] = processed_df["spec_id"].astype(str)
+    if "reference_order" not in raw_df.columns:
+        raise ValueError("Dataset is missing 'reference_order'.")
 
-    processed_keys = processed_df[key_columns].copy()
-    processed_keys["spec_id"] = processed_keys["spec_id"].astype(str)
+    target_column = (
+        "actual_order"
+        if "actual_order" in test_df.columns
+        else "reference_order"
+        if "reference_order" in test_df.columns
+        else None
+    )
 
-    lookup = processed_keys.reset_index().set_index(key_columns)["index"]
-    indices = pd.MultiIndex.from_frame(test_keys)
-    matched_indices = lookup.reindex(indices)
-
-    if matched_indices.isna().any():
+    if target_column is None:
         raise ValueError(
-            "Some test rows could not be matched to the original dataset."
+            "Test CSV must contain actual_order or reference_order."
         )
 
-    X_test = X_all.loc[matched_indices.astype(int)].reset_index(drop=True)
-    y_test = test_df["actual_order"].astype(int).to_numpy()
+    # Normalize matching keys.
+    raw_df = raw_df.copy()
+    test_df = test_df.copy()
 
-    if len(X_test) != len(y_test):
-        raise ValueError("Test feature and target lengths do not match.")
+    for df in (raw_df, test_df):
+        df["spec_id"] = df["spec_id"].astype(str).str.strip()
+        df["design_method"] = (
+            df["design_method"].astype(str).str.strip()
+        )
 
-    min_order = int(saved_data.get("minimum_order", 1))
-    max_order = int(saved_data.get("maximum_order", 100))
+    if raw_df.duplicated(key_columns).any():
+        raise ValueError(
+            "Dataset contains duplicate spec_id/design_method keys."
+        )
+
+    if test_df.duplicated(key_columns).any():
+        raise ValueError(
+            "Test CSV contains duplicate spec_id/design_method keys."
+        )
+
+    # Match held-out test rows to the original dataset.
+    indexed = raw_df.set_index(key_columns)
+    test_index = pd.MultiIndex.from_frame(test_df[key_columns])
+
+    missing_keys = ~test_index.isin(indexed.index)
+    if missing_keys.any():
+        raise ValueError(
+            f"{int(missing_keys.sum())} test rows do not match the dataset."
+        )
+
+    matched_rows = indexed.reindex(test_index).reset_index(drop=True)
+
+    # Verify test targets against the original reference orders.
+    y_test = test_df[target_column].astype(int).to_numpy()
+    original_targets = matched_rows["reference_order"].astype(int).to_numpy()
+
+    if not np.array_equal(y_test, original_targets):
+        raise ValueError(
+            "Test targets do not match reference_order in the dataset. "
+            "Restore the original held-out test CSV before evaluating."
+        )
+
+    # engineer_features returns the encoded feature DataFrame.
+    X_all = engineer_features(raw_df)
+
+    if not isinstance(X_all, pd.DataFrame):
+        raise TypeError(
+            "engineer_features() must return a pandas DataFrame."
+        )
+
+    if len(X_all) != len(raw_df):
+        raise ValueError(
+            "Feature row count does not match the original dataset."
+        )
+
+    # Keep row order aligned with raw_df.
+    X_all = X_all.reindex(
+        columns=training_columns,
+        fill_value=0
+    )
+
+    # Resolve held-out row positions using the verified keys.
+    key_to_position = {
+        (row.spec_id, row.design_method): position
+        for position, row in enumerate(
+            raw_df[key_columns].itertuples(index=False)
+        )
+    }
+
+    positions = [
+        key_to_position[(row.spec_id, row.design_method)]
+        for row in test_df[key_columns].itertuples(index=False)
+    ]
+
+    X_test = X_all.iloc[positions].reset_index(drop=True)
+
+    if len(X_test) != len(y_test) or len(y_test) == 0:
+        raise ValueError("Invalid held-out test feature/target lengths.")
+
+    minimum_order = int(saved_data.get("minimum_order", 1))
+    maximum_order = int(saved_data.get("maximum_order", 100))
 
     results = []
 
-    for name, model in saved_data["models"].items():
+    print("Evaluating saved models on verified test rows...")
+
+    for name, model in models.items():
         start = time.perf_counter()
         raw_predictions = model.predict(X_test)
         elapsed = time.perf_counter() - start
 
-        predictions = np.rint(raw_predictions).astype(int)
-        predictions = np.clip(predictions, min_order, max_order)
+        predictions = np.clip(
+            np.rint(raw_predictions).astype(int),
+            minimum_order,
+            maximum_order
+        )
+
+        exact = accuracy_score(y_test, predictions) * 100
+        within_one = (
+            np.mean(np.abs(predictions - y_test) <= 1) * 100
+        )
+        mae = mean_absolute_error(y_test, predictions)
 
         results.append({
             "Model": name,
-            "Exact-order accuracy (%)": round(
-                accuracy_score(y_test, predictions) * 100, 2
-            ),
-            "Within ±1 order (%)": round(
-                np.mean(np.abs(predictions - y_test) <= 1) * 100, 2
-            ),
-            "MAE": round(
-                mean_absolute_error(y_test, predictions), 4
-            ),
+            "Exact-order accuracy (%)": round(exact, 2),
+            "Within ±1 order (%)": round(within_one, 2),
+            "MAE": round(mae, 4),
             "Prediction time (ms/sample)": round(
                 elapsed * 1000 / len(X_test), 4
             )
         })
 
-        # Compare with predictions saved by the original training script.
+        # Compare predictions with those recorded by the training script.
         if "predicted_order" in test_df.columns:
-            saved_predictions = test_df["predicted_order"].astype(int).to_numpy()
+            saved_predictions = (
+                test_df["predicted_order"].astype(int).to_numpy()
+            )
+
+            match = np.mean(predictions == saved_predictions) * 100
+
             print(
-                "\nMatches saved predictions:",
-                name,
-                np.mean(predictions == saved_predictions) * 100,
-                "%"
+                f"{name} — agreement with saved predictions: "
+                f"{match:.2f}%"
             )
 
     results_df = pd.DataFrame(results).sort_values(
@@ -105,13 +187,13 @@ def main():
         ascending=[False, True]
     )
 
-    print("\nSTAGE 4: VERIFIED MODEL EVALUATION")
+    print("\nSTAGE 4: HELD-OUT MODEL EVALUATION")
     print("---------------------------------")
-    print("Test samples:", len(X_test))
+    print("Verified test samples:", len(X_test))
     print(results_df.to_string(index=False))
 
     results_df.to_csv(RESULT_FILE, index=False)
-    print("\nSaved results to", RESULT_FILE)
+    print(f"\nSaved results to {RESULT_FILE}")
 
 
 if __name__ == "__main__":

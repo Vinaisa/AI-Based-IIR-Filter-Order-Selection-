@@ -1,2 +1,2 @@
-Model,Exact-order accuracy (%),Within ±1 order (%),MAE,Training time (s),Prediction time (ms/sample)
-Extra Trees Regressor,50.33,81.83,0.95,1.074,0.093
+Model,Exact-order accuracy (%),Within ±1 order (%),MAE,Prediction time (ms/sample)
+Extra Trees Regressor,100.0,100.0,0.0,0.1049
